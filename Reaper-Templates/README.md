@@ -1,7 +1,5 @@
 # Reaper Templates
 
-Include a list of what each template file does:
-
 Template | What it does
 -------- | ------------
 [140TracksTemplate](https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/140TracksTemplate.RPP) | Routes 140 tracks to the Cube's 140 Loudspeakers, including the Subs and LFEs
