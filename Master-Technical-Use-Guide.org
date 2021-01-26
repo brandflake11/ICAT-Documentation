@@ -38,7 +38,6 @@ _Perform Studio:_ ~/Documents/Dante Presets/PerformStudioDefault.xml
 4. Under Dante Controller - Apply Preset Window, click All on the left pane of Preset Elements, click Select All, and click Ok
 [picture of this]
 
-
 5. Wait, for Dante Controller to apply the preset settings
 [picture of this]
 From here, the speaker setup should be appropriate for doing work in the space.
@@ -308,8 +307,9 @@ The Cube is a four-story tall black box theater and lab with 140 individually ad
 
 1. Enter in the Cube. The lights may be off.
 
-# Is it called work?
+# Is the light preset called Work?
 2. Find the light control panel. From here, click Work on the touchscreen.
+[include picture of this]
 
 3. Find the white remote to turn on the speakers. It is usually located under the Cube computer.
 [include picture of this remote]
@@ -327,6 +327,15 @@ The Perform Studio is equipped with 28 individually addressable loudspeakers *(i
 *** System Specifications
 
 *** Research
+
+*** Getting Started in Perform Studio for Sound Work
+
+1. Turn on the lights at the light switch.
+
+# Is this next step correct? Does Perform have a remote to turn speakers on/off?
+2. The speakers should be kept on, but if they are not, find the white remote to turn them on.
+
+From here, you should be ready to route sound, assuming the computer is set up for routing sound properly. Look at the section "Loading the Default Presets".
 
 ** ARIES Lab
 
@@ -349,17 +358,24 @@ ARIES lab provides a space for several research endeavors. Projects currently be
 
 * Troubleshooting
 
-
 1. Subscribing Audio Warnings
+
 a. “Warning: Locked Transmitter”
+
 b. “No Receive flows: receiver cannot support any more flows”
+
 c. “No more flows (TX): transmitter cannot support any more flows”
+
 d. “Cannot change: Locked receiver” 
 
 2. Subscribing Audio Errors
+
 a. “Incorrect channel format: source and destination channels do not match”
+
 b. “Mismatched clock domains: the transmitter and receiver are not part of the same clock domain”
+
 c. “Tx Scheduler failure”
+
 d. “Access control failure: Transmitter is locked”
 
 * NOTES
