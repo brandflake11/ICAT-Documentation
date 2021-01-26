@@ -69,13 +69,13 @@ If there is a specific routing that you need for your project, whether that mean
 
 ** Dante Virtual Soundcard
 
-Dante Virtual Soundcard is a piece of software to allow for audio output from standard ethernet ports. It is used in all ICAT multichannel sound spaces. *(#Is this true?)* You will need it running, if it is not already running.
+Dante Virtual Soundcard is a piece of software to allow for audio output from standard ethernet ports. It is used in all ICAT multichannel sound spaces. You will need it running, if it is not already running.
 
 1. Launch Dante Virtual Soundcard application [have picture of what the app looks like on macos and windows]
 
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
 
-_*In the Cube*_ - you will want 16x16
+_*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
 
 _*In Perform Studio*_ - you will need at least 32x32
 
@@ -91,6 +91,8 @@ The Perform Studio uses Dante Virtual Soundcard for all of its audio outputs. If
 Reaper is typically the DAW of choice here at ICAT for its flexibility in audio routing, easy availability, and cross-platform features. If you need an audio environment strong in audio editing, midi sequencing, and midi automation, Reaper would be a good choice.
 
 *** Getting Sound out of Reaper
+
+# Tanner wants to link the template here. We can put it in the git and link it in the document
 
 **** Sending to Speakers Directly with Reaper
 
@@ -294,13 +296,19 @@ Pd-l2ork will now output its sound to the speakers of whichever studio you are i
 
 *** About
 
+# Can we copy specs from ICAT webpages, or would that not be allowed?
+
+The Cube is a four-story tall black box theater and lab with 140 individually addressable loudspeakers. It is equipped with a 360-degree projection screen called the Cyclorama that is capable of doing stereoscopic video work. The Cube also has capabilities of motion tracking using a high-accuracy camera system called Qualisys. 
+
 *** System Specifications
 
 *** Research
 
-** Performance Studio
+** Perform Studio
 
 *** About
+
+The Perform Studio is equipped with 28 individually addressable loudspeakers *(is that right?)*, Qualisys infrared tracking, and VR headsets. Peform Studio can make for a good choice if you need to do work in the Cube, but can't get time in it, as most work can go from the Perform Studio to the Cube effortlessly.
 
 *** System Specifications
 
