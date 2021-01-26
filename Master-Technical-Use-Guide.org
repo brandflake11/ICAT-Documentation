@@ -1,4 +1,5 @@
 # This was worked on by Brandon Hale, Charlie Duff, and Tanner Upthegrove
+# Use the @Tag to mark who you are to make notes to the rest of the team
 
 * Overview
 
@@ -91,7 +92,7 @@ Reaper is typically the DAW of choice here at ICAT for its flexibility in audio 
 
 *** Getting Sound out of Reaper
 
-# Tanner wants to link the template here. We can put it in the git and link it in the document
+[[./Reaper-Templates/]]
 
 **** Sending to Speakers Directly with Reaper
 
@@ -166,7 +167,7 @@ Sampling Rate: 48000. This should always be the case, but it's important to make
 
 [include picture of this]
 
-3. # Need to direct user to use a template Cube/Perform Studio patch in the same location. maybe put it in ~/Documents/templates?
+3. *# Need to direct user to use a template Cube/Perform Studio patch in the same location. maybe put it in ~/Documents/templates?*
 
 4. # Set which studio you are in, in the Max msp template patch
 
