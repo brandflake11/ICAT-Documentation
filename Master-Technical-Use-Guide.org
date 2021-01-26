@@ -304,11 +304,25 @@ The Cube is a four-story tall black box theater and lab with 140 individually ad
 
 *** Research
 
+*** Getting Started in the Cube for Sound Work
+
+1. Enter in the Cube. The lights may be off.
+
+# Is it called work?
+2. Find the light control panel. From here, click Work on the touchscreen.
+
+3. Find the white remote to turn on the speakers. It is usually located under the Cube computer.
+[include picture of this remote]
+
+4. Click any ON button on it and wave it around your head to turn on the speaker amplifiers. You should hear a crackle that signals they have been turned on.
+
+From here, you should be ready to work in the Cube for audio.
+
 ** Perform Studio
 
 *** About
 
-The Perform Studio is equipped with 28 individually addressable loudspeakers *(is that right?)*, Qualisys infrared tracking, and VR headsets. Peform Studio can make for a good choice if you need to do work in the Cube, but can't get time in it, as most work can go from the Perform Studio to the Cube effortlessly.
+The Perform Studio is equipped with 28 individually addressable loudspeakers *(is that right?)*, Qualisys infrared tracking, and VR headsets. Perform Studio can make for a good choice if you need to do work in the Cube, but can't get time in it, as most work can go from the Perform Studio to the Cube effortlessly.
 
 *** System Specifications
 
