@@ -302,13 +302,14 @@ The Cube is a four-story tall black box theater and lab with 140 individually ad
 
 *** System Specifications
 
-*** Research
+The Cube is equipped with 140 loudspeakers with five levels of height. It has 4 sub-woofers, 2 lfes, and ceiling speakers.
+
+[[./.imagegit/cube-signal-flow-diagram.png]]*** Research
 
 *** Getting Started in the Cube for Sound Work
 
 1. Enter in the Cube. The lights may be off.
 
-# Is the light preset called Work?
 2. Find the light control panel. From here, click Work on the touchscreen.
 [include picture of this]
 
@@ -323,9 +324,15 @@ From here, you should be ready to work in the Cube for audio.
 
 *** About
 
-The Perform Studio is equipped with 28 individually addressable loudspeakers *(is that right?)*, Qualisys infrared tracking, and VR headsets. Perform Studio can make for a good choice if you need to do work in the Cube, but can't get time in it, as most work can go from the Perform Studio to the Cube effortlessly.
+The Perform Studio is equipped with 28 individually addressable loudspeakers, Qualisys infrared tracking, and VR headsets. Perform Studio can make for a good choice if you need to do work in the Cube, but can't get time in it, as most work can go from the Perform Studio to the Cube effortlessly.
 
 *** System Specifications
+
+# I am unsure about these specifications
+
+There are 28 loudspeakers located around the room in a cube-like layout, with two levels of height. There are four subs on the ground floor, allowing for a similar bass effect to the Cube's four sub-woofers. 
+
+[[./.imagegit/perform-signal-flow-diagram.png]]
 
 *** Research
 
