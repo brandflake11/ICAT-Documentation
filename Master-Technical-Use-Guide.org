@@ -78,7 +78,7 @@ Reaper is typically the DAW of choice here at ICAT for its flexibility in audio 
 
 _See the Reaper-Templates folder to get some instantly-usable Reaper project setups._
 
-[[./Reaper-Templates/]]
+[[./Reaper-Templates/][Reaper Templates]]
 
 **** Sending to Speakers Directly with Reaper
 
