@@ -129,7 +129,7 @@ Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper 
 
 1. In Reaper, go to Options > Preferences (C+p) [[./.imagegit/reaper-options.png]]
 
-2. Make sure Audio > Device is selected from the left-hand menu [[./.imagegit/reaper-audio-devices-tab.png]]
+2. Make sure Audio > Device is selected from the left-hand menu [[./.imagegit/reaper-audio-devices-tab-numbered.png]]
 
 3. Make sure these settings are selected:
 
@@ -139,7 +139,7 @@ c. Output Channels:
 
 d. Samplerate: 48000
 
-[include picture, with all of this numbered]
+[[./.imagegit/reaper-to-max-audio-settings.png]]
 
 4. Click Apply, and click OK.
 
@@ -165,7 +165,7 @@ Output Device: Liono (for the Cube), or Dante Virtual Soundcard (for Perform Stu
 
 Sampling Rate: 48000. This should always be the case, but it's important to make sure.
 
-[include picture of this]
+[[./.imagegit/max-msp-audio-settings.png]]
 
 3. *# Need to direct user to use a template Cube/Perform Studio patch in the same location. maybe put it in ~/Documents/templates?*
 
@@ -242,7 +242,6 @@ You should now have sound out of Max msp.
 Just like Max msp, Pure Data (pd for short) has the ability to output sound independently to speakers.
 
 *** Getting Sound Out of Pd
-
 
 1. Go to Media > Audio Settings
 [Picture]
