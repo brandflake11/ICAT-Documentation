@@ -92,6 +92,8 @@ Reaper is typically the DAW of choice here at ICAT for its flexibility in audio 
 
 *** Getting Sound out of Reaper
 
+*_See the Reaper-Templates folder to get some usable Reaper project setups._*
+
 [[./Reaper-Templates/]]
 
 **** Sending to Speakers Directly with Reaper
@@ -100,7 +102,7 @@ Reaper is typically the DAW of choice here at ICAT for its flexibility in audio 
 
 2. Make sure Audio > Device is selected from the left-hand menu
 
-[picture with Audio > Device shown]
+[[./.imagegit/reaper-audio-devices-tab.png]]
 
 3. Make sure these settings are selected:
 # Make sure on Macos these settings are called this, and include how to not use an input source
@@ -129,7 +131,7 @@ Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper 
 
 2. Make sure Audio > Device is selected from the left-hand menu
 
-[picture with Audio > Device shown]
+[[./.imagegit/reaper-audio-devices-tab.png]]
 
 3. Make sure these settings are selected:
 
@@ -206,13 +208,16 @@ Make sure you do not reorganize the Reaper track order, as this will interfere w
 # Maybe also include a section for routing audio from reaper to max msp using Tanner’s ambisonic patch setup.
 
 1. Open the routing for the track of your choice using the Routing button in either the main track window or the under the mixer view
-[include picture of this]
 
-2. Use the Track channels: drop down to select as many channels as you want for your track. Note: you can only have up to 64 channels in a Reaper track at a time.
+[[./.imagegit/reaper-route-small.png]]
+
+[[./.imagegit/reaper-route-big.png]]
+
+2. Use the Track channels: drop down to select as many channels as you want for your track. *Note: you can only have up to 64 channels in a Reaper track at a time.*
 
 3. Make sure Parent channels: is selected properly for your setup.
 
-[include picture for 2. and 3. with numbers next to Track channels and Parent channels]
+[[./.imagegit/reaper-route-multitrack-numbered.png]]
 
 Additionally, if you're unsure where your file's channels are going, open up the routing matrix (A+r) to get a display on where your channels are headed to.
 
@@ -224,15 +229,15 @@ Additionally, if you're unsure where your file's channels are going, open up the
 
 2. Make sure the Audio settings are configured with:
 
-_Input Device:_
+- _Input Device:_
 If you are unsure of what input device to use and don’t need audio input into Max msp, use MADIface USB.
 
-_Output Device:_ [include this]
-_The Cube:_ Liono
+- _Output Device:_
+- _The Cube:_ Liono
 
-_Perform Studio:_ Dante Virtual Soundcard
+- _Perform Studio:_ Dante Virtual Soundcard
 
-_Sampling Rate:_ 48000
+- _Sampling Rate:_ 48000
 
 3. Turn master audio gain on the bottom right all the way down
 
@@ -320,7 +325,7 @@ The Cube is equipped with 140 loudspeakers with five levels of height. It has 4 
 
 4. Click any ON button on it and wave it around your head to turn on the speaker amplifiers. You should hear a crackle that signals they have been turned on.
 
-From here, you should be ready to work in the Cube for audio.
+From here, you should be ready to work in the Cube for audio. The soundcard that you want to use in the Cube, is Liono. This is an aggregate device that combines the REDNET PCI Dante audio hardware and Dante Virtual Soundcard, giving access to all of the speakers in the Cube. 
 
 ** Perform Studio
 
@@ -345,7 +350,7 @@ There are 28 loudspeakers located around the room in a cube-like layout, with tw
 # Is this next step correct? Does Perform have a remote to turn speakers on/off?
 2. The speakers should be kept on, but if they are not, find the white remote to turn them on.
 
-From here, you should be ready to route sound, assuming the computer is set up for routing sound properly. Look at the section "Loading the Default Presets".
+From here, you should be ready to route sound, assuming the computer is set up for routing sound properly. Look at the section "Loading the Default Presets". Use Dante Virtual Soundcard to route audio out to the speakers in Perform Studio. 
 
 ** ARIES Lab
 
