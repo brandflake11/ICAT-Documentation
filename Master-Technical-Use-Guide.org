@@ -127,11 +127,9 @@ Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper 
 
 *1. Reaper*
 
-1. In Reaper, go to Options > Preferences (C+p)
+1. In Reaper, go to Options > Preferences (C+p) [[./.imagegit/reaper-options.png]]
 
-2. Make sure Audio > Device is selected from the left-hand menu
-
-[[./.imagegit/reaper-audio-devices-tab.png]]
+2. Make sure Audio > Device is selected from the left-hand menu [[./.imagegit/reaper-audio-devices-tab.png]]
 
 3. Make sure these settings are selected:
 
