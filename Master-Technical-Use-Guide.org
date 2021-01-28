@@ -207,17 +207,11 @@ Make sure you do not reorganize the Reaper track order, as this will interfere w
 
 # Maybe also include a section for routing audio from reaper to max msp using Tanner’s ambisonic patch setup.
 
-1. Open the routing for the track of your choice using the Routing button in either the main track window or the under the mixer view
-
-[[./.imagegit/reaper-route-small.png]]
-
-[[./.imagegit/reaper-route-big.png]]
+1. Open the routing for the track of your choice using the Routing button in either the main track window or the under the mixer view. [[./.imagegit/reaper-route-small.png]] [[./.imagegit/reaper-route-big.png]]
 
 2. Use the Track channels: drop down to select as many channels as you want for your track. *Note: you can only have up to 64 channels in a Reaper track at a time.*
 
-3. Make sure Parent channels: is selected properly for your setup.
-
-[[./.imagegit/reaper-route-multitrack-numbered.png]]
+3. Make sure Parent channels: is selected properly for your setup. [[./.imagegit/reaper-route-multitrack-numbered.png]]
 
 Additionally, if you're unsure where your file's channels are going, open up the routing matrix (A+r) to get a display on where your channels are headed to.
 
