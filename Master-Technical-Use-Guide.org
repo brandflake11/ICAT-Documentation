@@ -193,7 +193,7 @@ Additionally, if you're unsure where your file's channels are going, open up the
 1) Go to Options > Audio Status
 2) Make sure the Audio settings are configured with:
    - _Input Device:_
-3) *_Output Device:_*
+3) _Output Device:_
    - _The Cube:_ Liono
    - _Perform Studio:_ Dante Virtual Soundcard
    - _Sampling Rate:_ 48000
