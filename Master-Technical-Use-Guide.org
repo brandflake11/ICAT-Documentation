@@ -58,12 +58,10 @@ If there is a specific routing that you need for your project, whether that mean
 
 Dante Virtual Soundcard is a piece of software to allow for audio output from standard ethernet ports. It is used in all ICAT multichannel sound spaces. You will need it running, if it is not already running.
 
-1. Launch Dante Virtual Soundcard application [have picture of what the app looks like on macos and windows]
+1. Launch Dante Virtual Soundcard application [[./.imagegit/DVS_Icon.png]]
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
-
-     - _*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
-
-     - _*In Perform Studio*_ - you will need at least 32x32
+   - _*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
+   - _*In Perform Studio*_ - you will need at least 32x32
 3. Click the Start button, and you should now have virtual Dante outputs to the speakers [include picture for these two settings and the start button]
 
 The Cube only uses Dante Virtual Soundcard for the floor Genelec speakers. It uses the RedPCI audio interface for the rest. When using the Cube, you generally want to use the Liono soundcard for applications. Liono is an aggregate device that incorporates both the RedPCI hardware audio interface and the Dante Virtual Soundcard together.
@@ -85,9 +83,9 @@ _See the Reaper-Templates folder to get some instantly-usable Reaper project set
 1. Options > Preferences (C+p)
 2. Make sure Audio > Device is selected from the left-hand menu [[./.imagegit/reaper-audio-devices-tab.png]]
 3. Make sure these settings are selected:
-     - Check the box for allowing different input and output sources
-     - Audio System: Liono
-     - Check the box Request Sample Rate and set: 48000 [include picture, with all of this numbered]
+   - Check the box for allowing different input and output sources
+   - Audio System: Liono
+   - Check the box Request Sample Rate and set: 48000 [include picture, with all of this numbered]
 4. Hit Apply, and hit OK.
 
 It is recommended to take the master bus and lower its volume AND mute it to make sure you don't have other stereo sources that you don't need.
@@ -128,17 +126,17 @@ This step is not usually necessary. Only do this step if steps 1 and 3 do not pr
 
 *3. Max msp*
 
-1. In Max msp, go to Options > Audio Status
+1. In Max msp, go to Options > Audio Status [[./.imagegit/max-audio-status.png]]
 
 2. Under Audio Status, make sure these settings are configured:
 
-Input Device: MADIface USB
+     Input Device: MADIface USB
 
-Output Device: Liono (for the Cube), or Dante Virtual Soundcard (for Perform Studio)
+     Output Device: Liono (for the Cube), or Dante Virtual Soundcard (for Perform Studio)
 
-Sampling Rate: 48000. This should always be the case, but it's important to make sure.
+     Sampling Rate: 48000. This should always be the case, but it's important to make sure.
 
-[[./.imagegit/max-msp-audio-settings.png]]
+     [[./.imagegit/max-msp-audio-settings.png]]
 
 3. *# Need to direct user to use a template Cube/Perform Studio patch in the same location. maybe put it in ~/Documents/templates?*
 
@@ -212,8 +210,8 @@ Just like Max msp, Pure Data (pd for short) has the ability to output sound inde
 
 1. Go to Media > Audio Settings [Picture]
 2. Make sure the Audio Settings are configured with:
-     + Sample rate of 48000
-     + Output Devices going to Liono with 140 as the channels for output
+   + Sample rate of 48000
+   + Output Devices going to Liono with 140 as the channels for output
 3. Save All Settings.
 4. When ready to process audio, click the DSP checkbox in the main pd window [picture with numbers for each step where they are on macos]
 
@@ -229,8 +227,8 @@ Pd-l2ork is an improved version of pd-extended, developed here by Ico Bukvic, fo
 
 1. Go to Edit > Preferences (C+p)
 2. Under the Audio Tab, make sure
-    - Sample rate is 48000
-    - Liono is selected for Output Devices with 140 under channels
+   - Sample rate is 48000
+   - Liono is selected for Output Devices with 140 under channels
 3. Apply and Ok
 4. When ready, use the DSP checkbox to enable audio processing.
 
@@ -315,25 +313,25 @@ ARIES lab provides a space for several research endeavors. Projects currently be
 
 * Troubleshooting
 
-1. Subscribing Audio Warnings
+1) Subscribing Audio Warnings
 
-a. “Warning: Locked Transmitter”
+   1. “Warning: Locked Transmitter”
 
-b. “No Receive flows: receiver cannot support any more flows”
+   2. “No Receive flows: receiver cannot support any more flows”
 
-c. “No more flows (TX): transmitter cannot support any more flows”
+   3. “No more flows (TX): transmitter cannot support any more flows”
 
-d. “Cannot change: Locked receiver” 
+   4. “Cannot change: Locked receiver” 
 
-2. Subscribing Audio Errors
+2) Subscribing Audio Errors
 
-a. “Incorrect channel format: source and destination channels do not match”
+   1. “Incorrect channel format: source and destination channels do not match”
 
-b. “Mismatched clock domains: the transmitter and receiver are not part of the same clock domain”
+   2. “Mismatched clock domains: the transmitter and receiver are not part of the same clock domain”
 
-c. “Tx Scheduler failure”
+   3. “Tx Scheduler failure”
 
-d. “Access control failure: Transmitter is locked”
+   4. “Access control failure: Transmitter is locked”
 
 * NOTES
 
