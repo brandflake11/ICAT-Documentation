@@ -20,11 +20,12 @@ Dante Controller is a software application that interfaces users to all hardware
 
 *** Loading the Default Presets
 
-1. Launch Dante Controller [[./.imagegit/dante-virtual-soundcard-logo-small.png]]
+1. Launch Dante Controller
+   [[./.imagegit/dante-virtual-soundcard-logo-small.png]]
 2. File > Load Preset (C+l) 
 3. Select the appropriate preset and select ok (sort by Most Recent):
-     - _Cube:_ “~/Documents/Dante Configuration Files/Cube Master 2020 Sept 2.xml”
-     - _Perform Studio:_ ~/Documents/Dante/Presets/PerformStudioDefault.xml [picture of preset folder]
+   - _Cube:_ “~/Documents/Dante Configuration Files/Cube Master 2020 Sept 2.xml”
+   - _Perform Studio:_ ~/Documents/Dante/Presets/PerformStudioDefault.xml [picture of preset folder]
 4. Under Dante Controller - Apply Preset Window, click All on the left pane of Preset Elements, click Select All, and click Ok [picture of this]
 5. Wait for Dante Controller to apply the preset settings [picture of this]
 
@@ -34,21 +35,29 @@ From here, the speaker setup should be appropriate for doing work in the space.
 
 If there is a specific routing that you need for your project, whether that means a couple of mics, or a specific speaker setup, you will need to perform some Dante routing manually.
 
-1. Launch Dante Controller [picture of Dante Controller icon in macos and windows]
+1. Launch Dante Controller 
+
+   [[./.imagegit/DVS_Icon.png]]
 
 2. Make sure you are under the Routing tab 
 
 3. Signal flows from the Dante Transmitters at the top of the patchbay, to the Dante Receivers at the left of the patchbay. [show diagram with arrows for signal flow]
 
-4. Use the plus boxes to reveal the channels on both the Transmitters and Receivers. [show the plus box]
+4. Use the plus boxes to reveal the channels on both the Transmitters and Receivers. 
 
-5. Click the box between the Transmitters and Receivers to route the audio, and wait for the channel to be routed until the green checkmark appears. [show checkmark or waiting icon]
+   [[./.imagegit/dante-plus-box.png]]
+
+5. Click the box between the Transmitters and Receivers to route the audio, and wait for the channel to be routed until the green checkmark appears.  [[
+
+   [[./.imagegit/dante-green-checkmark.png]]
 
 6. To remove a channel, click the green check where you want to remove a routing.
 
 7. You can save a preset under File > Save Preset (C+s)
 
-8. Select which devices you want to save and click save [show picture]
+8. Select which devices you want to save and click save. 
+
+   [[./.imagegit/dante-controller-save-preset.png]]
 
 9. Save it with a detailed file name under the Dante Configuration or Dante Preset folder, depending on which studio you are in.
 
@@ -58,7 +67,8 @@ If there is a specific routing that you need for your project, whether that mean
 
 Dante Virtual Soundcard is a piece of software to allow for audio output from standard ethernet ports. It is used in all ICAT multichannel sound spaces. You will need it running, if it is not already running.
 
-1. Launch Dante Virtual Soundcard application [[./.imagegit/DVS_Icon.png]]
+1. Launch Dante Virtual Soundcard application
+   [[./.imagegit/DVS_Icon.png]]
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
    - _*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
    - _*In Perform Studio*_ - you will need at least 32x32
@@ -81,7 +91,8 @@ _See the Reaper-Templates folder to get some instantly-usable Reaper project set
 **** Sending to Speakers Directly with Reaper
 
 1. Options > Preferences (C+p)
-2. Make sure Audio > Device is selected from the left-hand menu [[./.imagegit/reaper-audio-devices-tab.png]]
+2. Make sure Audio > Device is selected from the left-hand menu
+   [[./.imagegit/reaper-audio-devices-tab.png]]
 3. Make sure these settings are selected:
    - Check the box for allowing different input and output sources
    - Audio System: Liono
@@ -98,9 +109,13 @@ Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper 
 
 *1. Reaper*
 
-1. In Reaper, go to Options > Preferences (C+p) [[./.imagegit/reaper-options.png]]
+1. In Reaper, go to Options > Preferences (C+p)
 
-2. Make sure Audio > Device is selected from the left-hand menu [[./.imagegit/reaper-audio-devices-tab-numbered.png]]
+   [[./.imagegit/reaper-options.png]]
+
+2. Make sure Audio > Device is selected from the left-hand menu
+
+   [[./.imagegit/reaper-audio-devices-tab-numbered.png]]
 
 3. Make sure these settings are selected:
 
@@ -110,7 +125,7 @@ Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper 
 
      c. Samplerate: 48000
 
-[[./.imagegit/reaper-to-max-audio-settings.png]]
+     [[./.imagegit/reaper-to-max-audio-settings.png]]
 
 4. Click Apply, and click OK.
 
@@ -126,7 +141,9 @@ This step is not usually necessary. Only do this step if steps 1 and 3 do not pr
 
 *3. Max msp*
 
-1. In Max msp, go to Options > Audio Status [[./.imagegit/max-audio-status.png]]
+1. In Max msp, go to Options > Audio Status
+
+   [[./.imagegit/max-audio-status.png]]
 
 2. Under Audio Status, make sure these settings are configured:
 
@@ -162,7 +179,7 @@ To spatialize from Reaper to Max msp, ICAT has a Reaper template that can be loa
 
 1. File > Project Templates > 64ChannelSpatialMixerTEMPLATE
 
-2. [Include the keyboard shortcuts to show and hide all automation lanes]
+2. *[Include the keyboard shortcuts to show and hide all automation lanes]*
 
 This template has 64 Reaper tracks preloaded with the dummy plugin, a plugin designed to send osc to ICAT’s Max msp template. Reaper tracks 1-64 correspond to Max msp inputs 1-64. You can now draw in Azimuth, Elevation, Distance, and Spread for each track/channel.
 
@@ -176,11 +193,14 @@ Make sure you do not reorganize the Reaper track order, as this will interfere w
 
 # Maybe also include a section for routing audio from reaper to max msp using Tanner’s ambisonic patch setup.
 
-1. Open the routing for the track of your choice using the Routing button in either the main track window or the under the mixer view. [[./.imagegit/reaper-route-small.png]] [[./.imagegit/reaper-route-big.png]]
+1. Open the routing for the track of your choice using the Routing button in either the main track window or the under the mixer view.
+   [[./.imagegit/reaper-route-small.png]] [[./.imagegit/reaper-route-big.png]]
 
 2. Use the Track channels: drop down to select as many channels as you want for your track. *Note: you can only have up to 64 channels in a Reaper track at a time.*
 
-3. Make sure Parent channels: is selected properly for your setup. [[./.imagegit/reaper-route-multitrack-numbered.png]]
+3. Make sure Parent channels: is selected properly for your setup.
+
+   [[./.imagegit/reaper-route-multitrack-numbered.png]]
 
 Additionally, if you're unsure where your file's channels are going, open up the routing matrix (A+r) to get a display on where your channels are headed to.
 
