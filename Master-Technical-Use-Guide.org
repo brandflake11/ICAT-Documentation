@@ -307,6 +307,8 @@ The Perform Studio is equipped with 28 individually addressable loudspeakers, Qu
 
 There are 28 loudspeakers located around the room in a cube-like layout, with two levels of height. There are four subs on the ground floor, allowing for a similar bass effect to the Cube's four sub-woofers. 
 
+#+attr_html: :width 100px
+#+attr_latex: :width 100px
 [[./.imagegit/perform-signal-flow-diagram.png]]
 
 *** Research
