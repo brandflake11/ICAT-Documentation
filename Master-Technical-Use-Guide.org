@@ -49,7 +49,7 @@ If there is a specific routing that you need for your project, whether that mean
 
    [[./.imagegit/dante-plus-box.png]]
 
-5. Click the box between the Transmitters and Receivers to route the audio, and wait for the channel to be routed until the green checkmark appears.  [[
+5. Click the box between the Transmitters and Receivers to route the audio, and wait for the channel to be routed until the green checkmark appears.
 
    [[./.imagegit/dante-green-checkmark.png]]
 
