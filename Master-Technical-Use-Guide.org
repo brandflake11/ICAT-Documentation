@@ -21,7 +21,9 @@ Dante Controller is a software application that interfaces users to all hardware
 *** Loading the Default Presets
 
 1. Launch Dante Controller
+
    [[./.imagegit/dante-virtual-soundcard-logo-small.png]]
+
 2. File > Load Preset (C+l) 
 3. Select the appropriate preset and select ok (sort by Most Recent):
    - _Cube:_ “~/Documents/Dante Configuration Files/Cube Master 2020 Sept 2.xml”
@@ -68,7 +70,9 @@ If there is a specific routing that you need for your project, whether that mean
 Dante Virtual Soundcard is a piece of software to allow for audio output from standard ethernet ports. It is used in all ICAT multichannel sound spaces. You will need it running, if it is not already running.
 
 1. Launch Dante Virtual Soundcard application
+
    [[./.imagegit/DVS_Icon.png]]
+
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
    - _*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
    - _*In Perform Studio*_ - you will need at least 32x32
@@ -92,7 +96,9 @@ _See the Reaper-Templates folder to get some instantly-usable Reaper project set
 
 1. Options > Preferences (C+p)
 2. Make sure Audio > Device is selected from the left-hand menu
+
    [[./.imagegit/reaper-audio-devices-tab.png]]
+
 3. Make sure these settings are selected:
    - Check the box for allowing different input and output sources
    - Audio System: Liono
@@ -194,6 +200,7 @@ Make sure you do not reorganize the Reaper track order, as this will interfere w
 # Maybe also include a section for routing audio from reaper to max msp using Tanner’s ambisonic patch setup.
 
 1. Open the routing for the track of your choice using the Routing button in either the main track window or the under the mixer view.
+
    [[./.imagegit/reaper-route-small.png]] [[./.imagegit/reaper-route-big.png]]
 
 2. Use the Track channels: drop down to select as many channels as you want for your track. *Note: you can only have up to 64 channels in a Reaper track at a time.*
