@@ -22,7 +22,9 @@ Dante Controller is a software application that interfaces users to all hardware
 
 1) Launch Dante Controller
 
-   [[./.imagegit/dante-virtual-soundcard-logo-small.png]]
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
+   [[./.imagegit/dante-virtual-controller-logo-small.png]]
 
 2) File > Load Preset (C+l) 
 3) Select the appropriate preset and select ok (sort by Most Recent):
@@ -83,11 +85,16 @@ Dante Virtual Soundcard is a piece of software to allow for audio output from st
 
 1. Launch Dante Virtual Soundcard application
 
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
    [[./.imagegit/DVS_Icon.png]]
 
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
    - _*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
    - _*In Perform Studio*_ - you will need at least 32x32
+
+      [[./.imagegit/4_DC_MacOS_DVS.png]]
+
 3. Click the Start button, and you should now have virtual Dante outputs to the speakers 
 
    *[include picture for these two settings and the start button]*
@@ -263,7 +270,7 @@ Pd will now output its sound to the speakers of whichever studio you are in.
 
 *Be careful, there are no universal controls for gain in pd like in Max Msp. Use [*~] objects to scale down the gain of your patch.*
 
-** Pd-l2ork
+** Pd-l2ork/Purr-data
 
 Pd-l2ork is an improved version of pd-extended, developed here by Ico Bukvic, for the Linux Laptop Orchestra. It is highly recommended to use pd-l2ork when dealing with our facilities, as it has many external objects which may help you in routing audio, including and infinite undo.
 
