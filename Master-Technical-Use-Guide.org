@@ -20,16 +20,21 @@ Dante Controller is a software application that interfaces users to all hardware
 
 *** Loading the Default Presets
 
-1. Launch Dante Controller
+1) Launch Dante Controller
 
    [[./.imagegit/dante-virtual-soundcard-logo-small.png]]
 
-2. File > Load Preset (C+l) 
-3. Select the appropriate preset and select ok (sort by Most Recent):
+2) File > Load Preset (C+l) 
+3) Select the appropriate preset and select ok (sort by Most Recent):
    - _Cube:_ “~/Documents/Dante Configuration Files/Cube Master 2020 Sept 2.xml”
-   - _Perform Studio:_ ~/Documents/Dante/Presets/PerformStudioDefault.xml [picture of preset folder]
-4. Under Dante Controller - Apply Preset Window, click All on the left pane of Preset Elements, click Select All, and click Ok [picture of this]
-5. Wait for Dante Controller to apply the preset settings [picture of this]
+   - _Perform Studio:_ "~/Documents/Dante/Presets/PerformStudioDefault.xml"
+4) Under Dante Controller 
+   1. Apply Preset Window 
+   2. Click All on the left pane of Preset Elements
+   3. Click Select All
+   4. Click Ok 
+   [picture of this]
+5) Wait for Dante Controller to apply the preset settings [picture of this]
 
 From here, the speaker setup should be appropriate for doing work in the space.
 
