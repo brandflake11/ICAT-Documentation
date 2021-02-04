@@ -348,7 +348,7 @@ The Applied Research in Immersive Environments and Simulations (ARIES) Lab is lo
 
 - The speakers are positioned in each of the four corners of the room, and receive power via CAT5 cables connected to the AtteroTech UND32 breakout interface located in the wall-rack adjacent to the primary desktop computer. 
 
-[[./.imagegit/aries-stack.png]]
+  [[./.imagegit/aries-stack.png]]
 
 
 *** Research
