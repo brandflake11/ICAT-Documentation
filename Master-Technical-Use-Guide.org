@@ -33,8 +33,12 @@ Dante Controller is a software application that interfaces users to all hardware
    2. Click All on the left pane of Preset Elements
    3. Click Select All
    4. Click Ok 
-   [picture of this]
-5) Wait for Dante Controller to apply the preset settings [picture of this]
+   #+attr_html: :width 500px
+   #+attr_latex: :width 500px
+   [[./.imagegit/1_DC_ApplyPreset_numbered.png]]
+5) Wait for Dante Controller to apply the preset settings 
+
+   *[picture of this]*
 
 From here, the speaker setup should be appropriate for doing work in the space.
 
@@ -48,7 +52,10 @@ If there is a specific routing that you need for your project, whether that mean
 
 2. Make sure you are under the Routing tab 
 
-3. Signal flows from the Dante Transmitters at the top of the patchbay, to the Dante Receivers at the left of the patchbay. [show diagram with arrows for signal flow]
+3. Signal flows from the Dante Transmitters at the top of the patchbay, to the Dante Receivers at the left of the patchbay. 
+   #+attr_html: :width 500px
+   #+attr_latex: :width 500px
+   [[./.imagegit/dante-controller-audio-signal-flow.png]]
 
 4. Use the plus boxes to reveal the channels on both the Transmitters and Receivers. 
 
@@ -81,7 +88,9 @@ Dante Virtual Soundcard is a piece of software to allow for audio output from st
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
    - _*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
    - _*In Perform Studio*_ - you will need at least 32x32
-3. Click the Start button, and you should now have virtual Dante outputs to the speakers [include picture for these two settings and the start button]
+3. Click the Start button, and you should now have virtual Dante outputs to the speakers 
+
+   *[include picture for these two settings and the start button]*
 
 The Cube only uses Dante Virtual Soundcard for the floor Genelec speakers. It uses the RedPCI audio interface for the rest. When using the Cube, you generally want to use the Liono soundcard for applications. Liono is an aggregate device that incorporates both the RedPCI hardware audio interface and the Dante Virtual Soundcard together.
 
@@ -107,7 +116,10 @@ _See the Reaper-Templates folder to get some instantly-usable Reaper project set
 3. Make sure these settings are selected:
    - Check the box for allowing different input and output sources
    - Audio System: Liono
-   - Check the box Request Sample Rate and set: 48000 [include picture, with all of this numbered]
+   - Check the box Request Sample Rate and set: 48000 
+
+   *[include picture, with all of this numbered]*
+
 4. Hit Apply, and hit OK.
 
 It is recommended to take the master bus and lower its volume AND mute it to make sure you don't have other stereo sources that you don't need.
@@ -116,7 +128,7 @@ It is recommended to take the master bus and lower its volume AND mute it to mak
 
 Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper with Max msp to spatialize your mix with Ambisonics. The overview is as follows: Reaper holds and plays your audio tracks, sends sound through a hardware audio loopback card called MADIface, and Max msp receives your audio to then process it using Ambisonics. From there, you can use an in-house designed plugin in Reaper to send spatial coordinates to the Cube, Perform Studio, or DISIS lab.
 
-[include diagram of the signal flow]
+*[include diagram of the signal flow]*
 
 *1. Reaper*
 
@@ -240,12 +252,12 @@ Just like Max msp, Pure Data (pd for short) has the ability to output sound inde
 
 *** Getting Sound Out of Pd
 
-1. Go to Media > Audio Settings [Picture]
+1. Go to Media > Audio Settings *[Picture]*
 2. Make sure the Audio Settings are configured with:
    + Sample rate of 48000
    + Output Devices going to Liono with 140 as the channels for output
 3. Save All Settings.
-4. When ready to process audio, click the DSP checkbox in the main pd window [picture with numbers for each step where they are on macos]
+4. When ready to process audio, click the DSP checkbox in the main pd window *[picture with numbers for each step where they are on macos]*
 
 Pd will now output its sound to the speakers of whichever studio you are in. 
 
@@ -264,7 +276,7 @@ Pd-l2ork is an improved version of pd-extended, developed here by Ico Bukvic, fo
 3. Apply and Ok
 4. When ready, use the DSP checkbox to enable audio processing.
 
-[picture with numbers for each step where they are on macos]
+*[picture with numbers for each step where they are on macos]*
 
 Pd-l2ork will now output its sound to the speakers of whichever studio you are in. 
 
@@ -292,9 +304,9 @@ The Cube is equipped with 140 loudspeakers with five levels of height. It has 4 
 
 1. Enter in the Cube. The lights may be off.
 
-2. Find the light control panel. From here, click Work on the touchscreen. [include picture of this]
+2. Find the light control panel. From here, click Work on the touchscreen. *[include picture of this]*
 
-3. Find the white remote to turn on the speakers. It is usually located under the Cube computer. [include picture of this remote]
+3. Find the white remote to turn on the speakers. It is usually located under the Cube computer. *[include picture of this remote]*
 
 4. Click any ON button on it and wave it around your head to turn on the speaker amplifiers. You should hear a crackle that signals they have been turned on.
 
