@@ -15,8 +15,8 @@ This guide provides research students and faculty with instructions to getting s
 ** Dante Controller
 
 Dante Controller is a software application that interfaces users to all hardware devices connected to the associated Dante network. This is the foundation of routing audio in the ICAT facilities. Dante Controller presets have been pre-configured for each of the ICAT spaces, however there are circumstances that require routing adjustments.
-
-[Picture of Dante Controller with Expanded Channels]
+ 
+   [[./.imagegit/7_DC_MacOS_Tx_to_unD32.png]]
 
 *** Loading the Default Presets
 
@@ -360,48 +360,50 @@ ARIES lab provides a space for several research endeavors. Projects currently be
 
    4. “Access control failure: Transmitter is locked”
 
-* NOTES
 
-NOTES: 
-Operator level (what sound cards, how do i turn things on, public-facing type of document, how to turn amplifiers on in the cube and controller intraface
-Basic how to use
-Technician Layer (Dante turns on amps, but getting all red circles instead of green -- few items to try out next) 
-Operator documentation separate from technician document
-A Wiki Option (Gira and confluence) (Emacs - org mode) (CCRMA stanford)
-Ability to host templates (reaper, Dante, Max and pd - with IO mappings, Unreal)
-
-Technical Guide: Moss Arts Center HDLA studios
-
-Overview: This guide has been put together to provide research students and faculty with instructions to getting started in the spatial audio studios located in the Moss Arts Center. Troubleshooting solutions are provided to guide users through common issues. 
-
----------------------------------------------------------------------------------------------------------------------
-
-Spatial Audio Studios:
-
-The Cube:
-SETUP:
-Turn on the lights (touch panel next to front entrance double doors)
-Startup/Wake-up the main CPU device
-Activate the Yamaha Amplifier units with the remote
-Load software and utilize Dante Interfaces (Dante Controller and DVS)
-BREAKDOWN:
-Close out software that was used
-Turn off Yamaha Amplifier units with remote - ensure they are off in the Dante Controller
-Normalize the room - return equipment that was used, turn off or sleep the CPU device, and turn off the facility lights
-Performance Studio:  
-SETUP:
-Turn on the lights (variable switch located next to entrance door)
-ARIES Operator: 
-SETUP: 
-
-Workflow:
-
-Dante
-
-Audinate’s Dante is a networking protocol that allows for the user to easily handle complex audio-visual situations. 
-Dante Controller: this matrix displays how signals can be transmitted and received by various hardware units communicating via Dante network.
-[IMAGE]
-Dante Virtual Soundcard: The DVS allows for a computer to be transformed into a Dante enabled device. This is useful for routing signals from a software on the computer through a specified unit in the Dante Controller. For example, iTunes can be 
-[IMAGE]
-[COMMON SCENARIOS]
-
+# # # # Commenting out as not immediately relevant documentation
+# * NOTES
+# 
+# NOTES: 
+# Operator level (what sound cards, how do i turn things on, public-facing type of document, how to turn amplifiers on in the cube and controller intraface
+# Basic how to use
+# Technician Layer (Dante turns on amps, but getting all red circles instead of green -- few items to try out next) 
+# Operator documentation separate from technician document
+# A Wiki Option (Gira and confluence) (Emacs - org mode) (CCRMA stanford)
+# Ability to host templates (reaper, Dante, Max and pd - with IO mappings, Unreal)
+# 
+# Technical Guide: Moss Arts Center HDLA studios
+# 
+# Overview: This guide has been put together to provide research students and faculty with instructions to getting started in the spatial audio studios located in the Moss Arts Center. Troubleshooting # solutions are provided to guide users through common issues. 
+# 
+# ---------------------------------------------------------------------------------------------------------------------
+# 
+# Spatial Audio Studios:
+# 
+# The Cube:
+# SETUP:
+# Turn on the lights (touch panel next to front entrance double doors)
+# Startup/Wake-up the main CPU device
+# Activate the Yamaha Amplifier units with the remote
+# Load software and utilize Dante Interfaces (Dante Controller and DVS)
+# BREAKDOWN:
+# Close out software that was used
+# Turn off Yamaha Amplifier units with remote - ensure they are off in the Dante Controller
+# Normalize the room - return equipment that was used, turn off or sleep the CPU device, and turn off the facility lights
+# Performance Studio:  
+# SETUP:
+# Turn on the lights (variable switch located next to entrance door)
+# ARIES Operator: 
+# SETUP: 
+# 
+# Workflow:
+# 
+# Dante
+# 
+# Audinate’s Dante is a networking protocol that allows for the user to easily handle complex audio-visual situations. 
+# Dante Controller: this matrix displays how signals can be transmitted and received by various hardware units communicating via Dante network.
+# [IMAGE]
+# Dante Virtual Soundcard: The DVS allows for a computer to be transformed into a Dante enabled device. This is useful for routing signals from a software on the computer through a specified unit in the # Dante Controller. For example, iTunes can be 
+# [IMAGE]
+# [COMMON SCENARIOS]
+# # # # 
