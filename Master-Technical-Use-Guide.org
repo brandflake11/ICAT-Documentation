@@ -125,13 +125,13 @@ Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper 
 
 3. Make sure these settings are selected:
 
-     a. Audio Device: MADIface USB
+   a. Audio Device: MADIface USB
 
-     b. Output Channels:
+   b. Output Channels:
 
-     c. Samplerate: 48000
+   c. Samplerate: 48000
 
-     [[./.imagegit/reaper-to-max-audio-settings.png]]
+   [[./.imagegit/reaper-to-max-audio-settings.png]]
 
 4. Click Apply, and click OK.
 
@@ -148,18 +148,18 @@ This step is not usually necessary. Only do this step if steps 1 and 3 do not pr
 *3. Max msp*
 
 1. In Max msp, go to Options > Audio Status
-
+   
    [[./.imagegit/max-audio-status.png]]
 
 2. Under Audio Status, make sure these settings are configured:
+   
+   Input Device: MADIface USB
+   
+   Output Device: Liono (for the Cube), or Dante Virtual Soundcard (for Perform Studio)
+     
+   Sampling Rate: 48000. This should always be the case, but it's important to make sure.
 
-     Input Device: MADIface USB
-
-     Output Device: Liono (for the Cube), or Dante Virtual Soundcard (for Perform Studio)
-
-     Sampling Rate: 48000. This should always be the case, but it's important to make sure.
-
-     [[./.imagegit/max-msp-audio-settings.png]]
+   [[./.imagegit/max-msp-audio-settings.png]]
 
 3. *# Need to direct user to use a template Cube/Perform Studio patch in the same location. maybe put it in ~/Documents/templates?*
 
