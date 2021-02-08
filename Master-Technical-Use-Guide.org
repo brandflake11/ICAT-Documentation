@@ -122,10 +122,11 @@ _See the Reaper-Templates folder to get some instantly-usable Reaper project set
 
 3. Make sure these settings are selected:
    - Check the box for allowing different input and output sources
-   - Audio System: Liono
+   - Input Device: <none>
+   - Output Device: Liono
    - Check the box Request Sample Rate and set: 48000 
 
-   *[include picture, with all of this numbered]*
+   [[./.imagegit/reaper-cube-audio-settings.png]] *[Need to number this]*
 
 4. Hit Apply, and hit OK.
 
