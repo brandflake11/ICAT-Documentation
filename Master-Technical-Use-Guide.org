@@ -259,12 +259,21 @@ Just like Max msp, Pure Data (pd for short) has the ability to output sound inde
 
 *** Getting Sound Out of Pd
 
-1. Go to Media > Audio Settings *[Picture]*
-2. Make sure the Audio Settings are configured with:
-   + Sample rate of 48000
-   + Output Devices going to Liono with 140 as the channels for output
-3. Save All Settings.
-4. When ready to process audio, click the DSP checkbox in the main pd window *[picture with numbers for each step where they are on macos]*
+1) Go to Media > Audio Settings 
+   [[./.imagegit/pd-media-audio-settings.png]]
+2) Make sure the Audio Settings are configured with:
+   1. The Cube
+      - Sample rate of 48000
+      - Output Devices going to Liono with 140 as the channels for output
+      [[./.imagegit/pd-cube-audio-settings.png]]
+   2. Perform Studio
+      - Sample rate of 48000
+      - Output Devices going to Dante Virtual Soundcard with 32 as the channels for output
+      [[./.imagegit/pd-perform-audio-settings.png]]      
+3) Save All Settings.
+4) Click OK
+5) When ready to process audio, click the DSP checkbox in the main pd window 
+   [[./.imagegit/pd-dsp-on.png]]
 
 Pd will now output its sound to the speakers of whichever studio you are in. 
 
@@ -276,14 +285,19 @@ Pd-l2ork is an improved version of pd-extended, developed here by Ico Bukvic, fo
 
 *** Getting Sound Out of Pd-l2ork
 
-1. Go to Edit > Preferences (C+p)
-2. Under the Audio Tab, make sure
-   - Sample rate is 48000
-   - Liono is selected for Output Devices with 140 under channels
-3. Apply and Ok
-4. When ready, use the DSP checkbox to enable audio processing.
-
-*[picture with numbers for each step where they are on macos]*
+1) Go to Edit > Preferences (C+p)
+   [[./.imagegit/pd-l2ork-edit-preferences.png]]
+2) Under the Audio Tab, make sure
+   1. The Cube
+      - Sample rate of 48000
+      - Output Devices going to Liono with 140 as the channels for output
+      [[./.imagegit/pd-l2ork-cube-audio-settings.png]]
+   2. Perform Studio
+      - Sample rate of 48000
+      - Output Devices going to Dante Virtual Soundcard with 32 as the channels for output
+      [[./.imagegit/pd-l2ork-perform-audio-settings.png]]
+3) Click Apply and Ok
+4) When ready, use the DSP checkbox to enable audio processing.
 
 Pd-l2ork will now output its sound to the speakers of whichever studio you are in. 
 
