@@ -38,9 +38,12 @@ Dante Controller is a software application that interfaces users to all hardware
    #+attr_html: :width 500px
    #+attr_latex: :width 500px
    [[./.imagegit/1_DC_ApplyPreset_numbered.png]]
+
 5) Wait for Dante Controller to apply the preset settings 
 
-   *[picture of this]*
+   [[./.imagegit/waiting-for-dante-controller-preset.png]]   
+
+   [[./.imagegit/done-dante-controller-preset.png]]
 
 From here, the speaker setup should be appropriate for doing work in the space.
 
@@ -91,13 +94,16 @@ Dante Virtual Soundcard is a piece of software to allow for audio output from st
 
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
    - _*In the Cube*_ - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
+
+      [[./.imagegit/dante-virtual-soundcard-cube-settings.png]]
+
    - _*In Perform Studio*_ - you will need at least 32x32
 
-      [[./.imagegit/4_DC_MacOS_DVS.png]]
+      #+attr_html: :width 500px
+      #+attr_latex: :width 500px
+      [[./.imagegit/dante-virtual-soundcard-perform-studio-settings.png]]
 
 3. Click the Start button, and you should now have virtual Dante outputs to the speakers 
-
-   *[include picture for these two settings and the start button]*
 
 The Cube only uses Dante Virtual Soundcard for the floor Genelec speakers. It uses the RedPCI audio interface for the rest. When using the Cube, you generally want to use the Liono soundcard for applications. Liono is an aggregate device that incorporates both the RedPCI hardware audio interface and the Dante Virtual Soundcard together.
 
