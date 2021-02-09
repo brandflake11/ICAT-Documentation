@@ -141,8 +141,10 @@ It is recommended to take the master bus and lower its volume AND mute it to mak
 **** Using Max msp to Spatialize Reaper with Ambisonics
 
 Since Reaper has a 64 channel limit per track, a typical setup is to use Reaper with Max msp to spatialize your mix with Ambisonics. The overview is as follows: Reaper holds and plays your audio tracks, sends sound through a hardware audio loopback card called MADIface, and Max msp receives your audio to then process it using Ambisonics. From there, you can use an in-house designed plugin in Reaper to send spatial coordinates to the Cube, Perform Studio, or DISIS lab.
-
-*[include diagram of the signal flow]*
+   
+   #+attr_html: :width 500px
+   #+attr_latex: :width 500px
+   [[./.imagegit/cube-ambisonic-diagram-signalflow.png]]
 
 *1. Reaper*
 
