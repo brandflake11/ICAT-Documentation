@@ -234,6 +234,8 @@ Make sure you do not reorganize the Reaper track order, as this will interfere w
 
 1. Open the routing for the track of your choice using the Routing button in either the main track window or the under the mixer view.
 
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
    [[./.imagegit/reaper-route-small.png]] [[./.imagegit/reaper-route-big.png]]
 
 2. Use the Track channels: drop down to select as many channels as you want for your track. *Note: you can only have up to 64 channels in a Reaper track at a time.*
@@ -302,16 +304,22 @@ Pd-l2ork is an improved version of pd-extended, developed here by Ico Bukvic, fo
 *** Getting Sound Out of Pd-l2ork
 
 1) Go to Edit > Preferences (C+p)
+
    [[./.imagegit/pd-l2ork-edit-preferences.png]]
+
 2) Under the Audio Tab, make sure
    1. The Cube
       - Sample rate of 48000
       - Output Devices going to Liono with 140 as the channels for output
+
       [[./.imagegit/pd-l2ork-cube-audio-settings.png]]
+
    2. Perform Studio
       - Sample rate of 48000
       - Output Devices going to Dante Virtual Soundcard with 32 as the channels for output
+
       [[./.imagegit/pd-l2ork-perform-audio-settings.png]]
+
 3) Click Apply and Ok
 4) When ready, use the DSP checkbox to enable audio processing.
 
