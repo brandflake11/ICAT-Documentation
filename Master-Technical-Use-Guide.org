@@ -24,7 +24,7 @@ Dante Controller is a software application that interfaces users to all hardware
 
    #+attr_html: :width 80px
    #+attr_latex: :width 80px
-   [[./.imagegit/dante-virtual-controller-logo-small.png]]
+   [[./.imagegit/dante-controller-logo-small.png]]
 
 2) File > Load Preset (C+l) 
 3) Select the appropriate preset and select ok (sort by Most Recent):
